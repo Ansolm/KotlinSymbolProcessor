@@ -27,9 +27,9 @@ val sourcesJar by tasks.creating(Jar::class) {
 publishing {
     publications {
         register("release", MavenPublication::class) {
-            groupId = "com.ansolm"
-            artifactId = "kotlinsymbolprocessor"
-            version = "0.0.4"
+            groupId = "com.github.ansolm"
+            artifactId = "symbolparser"
+            version = "0.0.6"
             from(components["java"])
             artifact(sourcesJar)
         }
