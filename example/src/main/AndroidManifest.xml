@@ -11,7 +11,7 @@
         android:theme="@style/Theme.KotlinSymbalProcessor"
         tools:targetApi="31">
         <activity
-            android:name="com.iwdael.kotlinsymbolprocessor.example.MainActivity"
+            android:name="com.ansolm.kotlinsymbolprocessor.example.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.KotlinSymbalProcessor">

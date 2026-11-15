@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.iwdael.kotlinsymbolprocessor.example"
-    compileSdk = 34
+    namespace = "com.ansolm.kotlinsymbolprocessor.example"
+    compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.iwdael.kotlinsymbolprocessor.example"
+        applicationId = "com.ansolm.kotlinsymbolprocessor.example"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
     }
@@ -28,6 +28,12 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
     }
 }
 

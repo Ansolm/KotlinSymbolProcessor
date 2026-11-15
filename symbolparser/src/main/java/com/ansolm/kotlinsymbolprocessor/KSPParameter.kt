@@ -1,4 +1,4 @@
-package com.iwdael.kotlinsymbolprocessor
+package com.ansolm.kotlinsymbolprocessor
 
 import com.google.devtools.ksp.KspExperimental
 import com.google.devtools.ksp.getAnnotationsByType
@@ -8,7 +8,7 @@ import com.google.devtools.ksp.symbol.KSValueParameter
 import kotlin.reflect.KClass
 
 /**
- * @author iwdael
+ * @author ansolm
  * @since 2024/8/19
  * @desc this is KSPParameter
  */

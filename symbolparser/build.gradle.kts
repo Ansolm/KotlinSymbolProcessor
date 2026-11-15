@@ -7,6 +7,11 @@ java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
 }
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+    }
+}
 dependencies {
     implementation(libs.symbol.processing.api)
     api(libs.kotlinpoet.ksp)
@@ -22,9 +27,9 @@ val sourcesJar by tasks.creating(Jar::class) {
 publishing {
     publications {
         register("release", MavenPublication::class) {
-            groupId = "com.iwdael"
+            groupId = "com.ansolm"
             artifactId = "kotlinsymbolprocessor"
-            version = "0.0.1"
+            version = "0.0.4"
             from(components["java"])
             artifact(sourcesJar)
         }

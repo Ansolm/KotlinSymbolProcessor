@@ -1,4 +1,4 @@
-package com.iwdael.kotlinsymbolprocessor.example
+package com.ansolm.kotlinsymbolprocessor.example
 
 import androidx.appcompat.app.AppCompatActivity
 

@@ -1,9 +1,9 @@
-package com.iwdael.kotlinsymbolprocessor
+package com.ansolm.kotlinsymbolprocessor
 
 import com.google.devtools.ksp.symbol.KSName
 
 /**
- * @author iwdael
+ * @author ansolm
  * @since 2024/8/19
  * @desc this is KSPPackage
  */

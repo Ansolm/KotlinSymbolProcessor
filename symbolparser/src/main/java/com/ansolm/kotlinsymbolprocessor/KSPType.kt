@@ -1,9 +1,9 @@
-package com.iwdael.kotlinsymbolprocessor
+package com.ansolm.kotlinsymbolprocessor
 
 import com.google.devtools.ksp.symbol.KSTypeReference
 
 /**
- * @author iwdael
+ * @author ansolm
  * @since 2024/8/20
  * @desc this is KSPType
  */
